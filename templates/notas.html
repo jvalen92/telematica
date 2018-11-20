@@ -1,0 +1,9 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="media content-section">
+  <div class="media-body">
+    <h2 class="estudiante">Estudiante: {{ notas[0]['estudiante'] }}</h2>
+    <p class="nota">Nota: {{ notas[0]['nota'] }}</p>
+  </div>
+</div>
+{% endblock content %}
